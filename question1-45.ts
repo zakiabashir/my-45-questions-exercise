@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer"
 // question#1 environment set
 // Install Node.js, TypeScript and VS Code on your computer.
