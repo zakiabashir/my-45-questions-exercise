@@ -550,11 +550,11 @@ for (let number of numbers) {
 // question#34
 
 // Array of favorite pizza names
-let pizzas = ['pepperoni', 'margherita', 'hawaiian'];
+let pizzas = ['chiken ', 'tandoori chicken ', 'chease '];
 
 // Loop through the array and print a sentence for each pizza
 for (let pizza of pizzas) {
-    console.log("I like " + pizza + " pizza.");
+    console.log(`I like " ${pizzas}  " pizza.`);
 }
 
 // Additional line outside the loop
@@ -582,11 +582,11 @@ console.log("Any of these animals would make a great pet!");
 
 // Function to create a T-shirt
 function make_shirt(size: string, message: string) {
-    console.log(`Creating a ${size} shirt with the message: "${message}"`);
+    console.log(`Creating a ${size} shirt with the message of: "${message}"`);
 }
 
 // Call the function
-make_shirt('medium', 'Hello, world!');
+make_shirt('medium', 'life is a beautiful blessing from ALLAH for us!');
 
 // question#37
 

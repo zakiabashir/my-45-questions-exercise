@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 // question#1 environment set
 // Install Node.js, TypeScript and VS Code on your computer.
 // question#2
@@ -437,10 +438,10 @@ for (let number of numbers) {
 }
 // question#34
 // Array of favorite pizza names
-let pizzas = ['pepperoni', 'margherita', 'hawaiian'];
+let pizzas = ['chiken ', 'tandoori chicken ', 'chease '];
 // Loop through the array and print a sentence for each pizza
 for (let pizza of pizzas) {
-    console.log("I like " + pizza + " pizza.");
+    console.log(`I like " ${pizzas}  " pizza.`);
 }
 // Additional line outside the loop
 console.log("I really love pizza!");
@@ -460,10 +461,10 @@ console.log("Any of these animals would make a great pet!");
 // question#36
 // Function to create a T-shirt
 function make_shirt(size, message) {
-    console.log(`Creating a ${size} shirt with the message: "${message}"`);
+    console.log(`Creating a ${size} shirt with the message of: "${message}"`);
 }
 // Call the function
-make_shirt('medium', 'Hello, world!');
+make_shirt('medium', 'life is a beautiful blessing from ALLAH for us!');
 // question#37
 // Modified function with default parameters
 function makes_shirt(size = 'large', message = 'I love TypeScript') {
@@ -557,6 +558,12 @@ make_sandwich('ham', 'cheese', 'lettuce');
 make_sandwich('turkey', 'bacon');
 make_sandwich('peanut butter', 'jelly');
 // question#45
+// Cars: Write a function that stores information about a car in a Object. 
+// The function should always receive a manufacturer and a model name. 
+// It should then accept an arbitrary number of keyword arguments. 
+// Call the function with the required information and two other name-value pairs,
+//  such as a color or an optional feature. Print the Object that’s returned to make sure all the information was stored correctly.
+// answer:
 // / Function to store information about a car in an Object
 function car_info(manufacturer, model, ...details) {
     let car = { manufacturer: manufacturer, model: model };
