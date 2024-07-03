@@ -347,7 +347,7 @@ else {
 let favorite_fruits = ['banana', 'apple', 'strawberry'];
 // Five if statements to check if a certain fruit is in the array
 if (favorite_fruits.includes('banana')) {
-    console.log("You really like bananas!");
+    console.log(`You really like ${favorite_fruits}!`);
 }
 if (favorite_fruits.includes('apple')) {
     console.log("You really like apples!");
