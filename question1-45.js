@@ -347,7 +347,7 @@ else {
 let favorite_fruits = ['banana', 'apple', 'strawberry'];
 // Five if statements to check if a certain fruit is in the array
 if (favorite_fruits.includes('banana')) {
-    console.log(`You really like ${favorite_fruits}!`);
+    console.log("You really like bananas!");
 }
 if (favorite_fruits.includes('apple')) {
     console.log("You really like apples!");
@@ -393,7 +393,7 @@ else {
             console.log("Hello admin, would you like to see a status report?");
         }
         else {
-            console.log(`Hello ${username}, thank you for logging in again.`);
+            console.log(`Hello ${username}, thank you for login in again.`);
         }
     }
 }
@@ -558,7 +558,7 @@ make_sandwich('ham', 'cheese', 'lettuce');
 make_sandwich('turkey', 'bacon');
 make_sandwich('peanut butter', 'jelly');
 // question#45
-// Cars: Write a function that stores information about a car in a Object. 
+// Cars: Write a function that stores information about a car in an Object. 
 // The function should always receive a manufacturer and a model name. 
 // It should then accept an arbitrary number of keyword arguments. 
 // Call the function with the required information and two other name-value pairs,
